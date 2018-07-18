@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { OuterCountainerComponent } from './outer-countainer/outer-countainer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    OuterCountainerComponent
   ],
   imports: [
     BrowserModule
