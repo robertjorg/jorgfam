@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { OuterCountainerComponent } from './outer-countainer/outer-countainer.component';
+import { HomePageComponent } from './home-page/home-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    OuterCountainerComponent
+    OuterCountainerComponent,
+    HomePageComponent
   ],
   imports: [
     BrowserModule
