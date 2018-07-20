@@ -1,0 +1,33 @@
+.form-container {
+  display: inline-grid;
+  display: -ms-inline-grid;
+  grid-template-columns: auto;
+  grid-gap: 15px;
+}
+
+.form-content {
+  display: inline-grid;
+  display: -ms-inline-grid;
+  grid-template-columns: 20em 25em;
+  grid-gap: 10px;
+  align-items: center;
+}
+
+label {
+  display: grid;
+  justify-items: end;
+}
+
+.text-up {
+  display: grid;
+  align-self: start;
+}
+
+#submit {
+  width: 150px;
+}
+
+.submit {
+  display: grid;
+  justify-items: end;
+}
