@@ -13,7 +13,7 @@
   align-items: center;
 }
 
-label {
+.label {
   display: grid;
   justify-items: end;
 }
@@ -30,4 +30,13 @@ label {
 .submit {
   display: grid;
   justify-items: end;
+}
+
+.ConstructionPicture {
+  transition: transform 8s ease-out;
+  transform-style: preserve-3d;
+}
+
+.ConstructionPicture:hover {
+  transform: rotateY(360deg);
 }
